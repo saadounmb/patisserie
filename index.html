@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pâtisserie Délicieux</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pâtisserie Délicieux</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="accueil" class="section">
+        <div class="container">
+            <h2>Bienvenue chez Pâtisserie Délicieux</h2>
+            <p>Découvrez nos délicieuses créations faites avec amour.</p>
+        </div>
+    </section>
+
+    <section id="produits" class="section">
+        <div class="container">
+            <h2>Nos Produits</h2>
+            <div class="produit">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcUxdD0UEtQAALh7hs4U2kdHwlR0jyRJJlug&s" alt="Nom du produit">
+                <h3>Foret noire</h3>
+                <p>Pour les amoureux du chocolaaat</p>
+            </div>
+            <div class="produit">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcUxdD0UEtQAALh7hs4U2kdHwlR0jyRJJlug&s" alt="Nom du produit">
+                <h3>Foret noire</h3>
+                <p>Pour les amoureux du chocolaaat</p>
+            </div>
+            <div class="produit">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcUxdD0UEtQAALh7hs4U2kdHwlR0jyRJJlug&s" alt="Nom du produit">
+                <h3>Foret noire</h3>
+                <p>Pour les amoureux du chocolaaat</p>
+            </div>
+            <div class="produit">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcUxdD0UEtQAALh7hs4U2kdHwlR0jyRJJlug&s" alt="Nom du produit">
+                <h3>Foret noire</h3>
+                <p>Pour les amoureux du chocolaaat</p>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form action="envoyer.php" method="POST">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pâtisserie Délicieux. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
